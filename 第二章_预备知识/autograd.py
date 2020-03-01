@@ -24,3 +24,7 @@ with torch.no_grad():
     y2 = x ** 3
 y3 = y1 + y2
 y3.backward()
+print(y3)
+x.backward()
+print(x)
+print(x.grad)
