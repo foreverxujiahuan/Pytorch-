@@ -53,7 +53,7 @@ loss = nn.MSELoss()
 optimizer = optim.SGD(net.parameters(), lr=0.03)
 
 # 训练模型
-if __name__ == '__main__': 
+if __name__ == '__main__':
     num_epochs = 3
     for epoch in range(1, num_epochs + 1):
         for X, y in data_iter:
