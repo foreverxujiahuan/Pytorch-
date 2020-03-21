@@ -2,7 +2,7 @@
 @Autor: xujiahuan
 @Date: 2020-03-16 17:14:53
 @LastEditors: xujiahuan
-@LastEditTime: 2020-03-17 17:32:39
+@LastEditTime: 2020-03-17 17:37:30
 '''
 import torch
 import torchvision
@@ -10,7 +10,7 @@ import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 import time
 import sys
-sys.path.append("..")# 为了导入上层目录的d2lzh_pytorch
+sys.path.append("..")  # 为了导入上层目录的d2lzh_pytorch
 import d2lzh_pytorch as d2l
 
 print(torch.__version__)
